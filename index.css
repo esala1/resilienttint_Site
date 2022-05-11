@@ -304,11 +304,28 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8); 
 }
+.btn_small{
+    display: none;
+}
 
 @media (max-width: 1000px){
 
+    #words{
+        text-align: left;
+    }
+    .btn_small{
+        display: block;
+        font-size: 27px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        text-decoration: none;
+        background-color: rgb(238, 214, 30);
+        border-radius: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
     .btn_one{
-        display: none;
+      display: none;
     }
 
     .btn_one2{
@@ -340,7 +357,6 @@ button:focus {
         background:url("media/logo_small.jpg") center center;
         background-repeat:no-repeat;
     }
-    .
     #top_part {
         border:0px;
     }
