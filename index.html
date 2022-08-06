@@ -115,9 +115,46 @@
                             <input placeholder="Name" type="text" name="name" required>
                             <input placeholder="Email" type="email" name="email" required>
                             <input placeholder="Phone, ex: 404-123-4567" type="text" name="phone" required>
-                            <br>
+                            
                             <textarea placeholder="Request by adding year, make, and model of car OR additional info for homes/buildings" rows="5" type = "text" name="message" required></textarea><br>
                             
+                            <p style="color: rgb(255, 255, 255); font-family: 'Poppins', sans-serif; font-size: 18px; font-weight:bold; padding:8px 20px"> Does your car/home windows currently have tint?
+                            <br>
+                            <style>
+                                label {
+                                float: left;
+                                padding: 0 1em;
+                                text-align: center;
+                                }
+                            </style>
+                            <label for="myChoice1">True<br />
+                                <input type="radio" id="myChoice1" name="myChoice" value="True" />
+                              </label>
+                              
+                              <label for="myChoice2">False<br />
+                                <input type="radio" id="myChoice2" name="myChoice" value="False" />
+                              </label>
+                              <br>
+                            </p>
+                            
+                            <br>
+                            <p style="color: rgb(255, 255, 255); font-family: 'Poppins', sans-serif; font-size: 18px; font-weight:bold; padding:8px 20px "> Do you have a garage/car port available where you stay?
+                            <br>
+                                <label for="myChoice3">Yes, Garage port<br />
+                                <input type="radio" id="myChoice3" name="myChoices" value="Yes, Garage port" />
+                            </label>
+                                
+                            <label for="myChoice4">Yes, Car port<br />
+                                <input type="radio" id="myChoice4" name="myChoices" value="Yes, Car port" />
+                            </label>
+
+                            <label for="myChoice5">No<br />
+                                <input type="radio" id="myChoice5" name="myChoices" value="No" />
+                            </label>
+                            </p>
+
+                            <input placeholder="Which city are you located at?" type="text" name="Cityname" required>
+
                             <button type="submit" class="btn_one2" 
                             style="padding:6px 30px;
                             width:60%;
